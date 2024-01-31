@@ -1,0 +1,34 @@
+package day4;
+
+public class Base {
+	int varDefault = 10;
+	public int varPublic = 20;
+	private int varPrivate = 30;
+	protected int varProtected = 40;
+	
+	//default ,public private and protected methods
+	
+	void defaultMethod()
+	{
+		System.out.println("Default variable " +varDefault );
+		System.out.println("default method");
+	}
+
+  public void publicMethod()
+	{
+		System.out.println("Public variable " +varPublic );
+		System.out.println("public method");
+	}
+	
+  private void privateMethod()
+	{
+		System.out.println("Private variable " +varPrivate );
+		System.out.println("private method");
+	}
+  protected void protectedMethod()
+	{
+		System.out.println("Protected variable " +varProtected );
+		System.out.println("protected method");
+	}
+
+}
